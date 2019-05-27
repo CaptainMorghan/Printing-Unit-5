@@ -1,0 +1,17 @@
+﻿<Window x:Class="Printing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Printing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label x:Name="lblDirection" Content="Number of copies" />
+        <TextBox x:Name="txtinput" />
+        <Button x:Name="btnClick" Content="Click" Click="BtnClick_Click" />
+        <Label x:Name="lblPricePerCopy" Content=" "/>
+        <Label x:Name="lblTotalCost" Content=" " />
+
+    </StackPanel>
+</Window>
